@@ -182,7 +182,8 @@ li {
 
 // body section
 main {
-    width: 100%
+    width: 100%;
+    height: 1000px;
 } 
 .body-title {
     display: flex;
@@ -200,4 +201,68 @@ main {
         color: #2b2a29;
 
     }
+}
+// cart section
+.cart-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.frist-cart {
+    background: white;
+    width: 350px;
+    height: 600px;
+    box-shadow:  10px 10px 10px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.para {
+    text-align: center;
+    font-family: $font;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: -100px
+}
+.para-pri {
+    text-align: center;
+    font-family: $font;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f26522;
+    padding-top: 5px;
+}
+.cart-text {
+    margin-top: -10px;
+}
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    padding-top: 100px;
+    font-family: $font;
+&__text-one {
+    color: #f26522;
+    font-weight: bold;
+}
+&__text-one:hover {
+    color: #2b2a29;
+    font-weight: bold;
+}
+&__text-two {
+    color: #2b2a29;
+    font-weight: bold;
+}
+&__text-two:hover {
+    color: #f26522;
+    font-weight: bold;
+}
 }
