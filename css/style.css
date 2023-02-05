@@ -2,3 +2,56 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  height: 600px;
+  background: url(../image/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif; }
+
+.navbar {
+  background: #343a40;
+  width: 70%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% auto;
+  background-color: #2b2a29;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%); }
+
+.nav-section ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; }
+  .nav-section ul__link li {
+    text-decoration: navy;
+    list-style: none; }
+
+li {
+  list-style: none; }
+
+.link-nav {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 17px; }
+
+.link-nav:hover {
+  color: #e83e8c; }
+
+.title-site {
+  display: block;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  width: 5%;
+  padding-top: 30px; }
+  .title-site__img {
+    justify-content: center;
+    align-content: center; }
