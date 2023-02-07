@@ -31,6 +31,9 @@
   @media screen and (max-width: 600px) {
     .navbar {
       width: 90%; } }
+  @media screen and (max-width: 395px) {
+    .navbar {
+      width: 90%; } }
 
 .nav-section ul {
   display: flex;
@@ -39,6 +42,9 @@
   .nav-section ul__link li {
     text-decoration: navy;
     list-style: none; }
+  @media screen and (max-width: 395px) {
+    .nav-section ul {
+      gap: 15px; } }
 
 li {
   list-style: none; }
@@ -58,6 +64,9 @@ li {
   @media screen and (max-width: 600px) {
     .link-nav {
       font-size: 13px; } }
+  @media screen and (max-width: 395px) {
+    .link-nav {
+      font-size: 11px; } }
 
 .link-nav:hover {
   color: #f26522; }
@@ -96,6 +105,12 @@ li {
   @media screen and (max-width: 600px) {
     .select__sel {
       width: 100px; } }
+  @media screen and (max-width: 395px) {
+    .select__sel {
+      font-size: 11px; } }
+  @media screen and (max-width: 280px) {
+    .select__sel {
+      width: 60px; } }
 
 .select__sel:hover {
   background: white;
@@ -118,6 +133,9 @@ li {
     @media screen and (max-width: 420px) {
       .input__inp {
         width: 150px; } }
+    @media screen and (max-width: 280px) {
+      .input__inp {
+        width: 120px; } }
   .input__inp--black {
     background: #f26522;
     width: 40px;
@@ -128,6 +146,9 @@ li {
     @media screen and (max-width: 600px) {
       .input__inp--black {
         width: 20px; } }
+    @media screen and (max-width: 280px) {
+      .input__inp--black {
+        width: 15px; } }
 
 .button__btn {
   background: white;
@@ -138,11 +159,17 @@ li {
   @media screen and (max-width: 420px) {
     .button__btn {
       width: 40px; } }
+  @media screen and (max-width: 395px) {
+    .button__btn {
+      width: 30; } }
 
 .button__link {
   color: black;
   text-decoration: none;
   font-size: 14px; }
+  @media screen and (max-width: 395px) {
+    .button__link {
+      font-size: 11px; } }
 
 .center-title {
   display: flex;
