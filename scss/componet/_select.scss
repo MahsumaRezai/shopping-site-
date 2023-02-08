@@ -1,0 +1,30 @@
+// select section 
+.select {
+    &__sel {
+        background: #2b2a29;
+        height: 40px;
+        width: 150px;
+        color: white;
+        font-family: $font;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 10px;
+        border:  1px solid #2b2a29;
+        border-radius: 5px;
+        @media screen and (max-width:600px) {
+            width: 100px;
+        }
+        @media screen and (max-width:395px) {
+            font-size: 11px;
+        }
+        @media screen and (max-width:280px) {
+            width: 60px
+            
+        }
+    }
+    &__sel:hover {
+    background: white;
+    color: black;
+
+    }
+}

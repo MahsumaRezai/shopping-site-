@@ -1,0 +1,71 @@
+
+// footer 
+footer {
+    width: 100%;
+    height: 420px;
+    background-color: #2b2a29;
+    @media screen  and (max-width:1024px){
+        display: none
+        
+    }
+}
+.footer-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.email {
+    display: flex;
+    color: #f3f3f3;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding-top:40px;
+    font-family: $font;
+    &__text  {
+        font-size: 17px;
+        
+    }
+    &__text:hover {
+        color: #f26522
+    }
+    &__textone {
+        font-size: 17px;
+        
+    }
+    &__textone:hover {
+        color: #f26522
+    }
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+hr {
+    width: 700px;
+}
+// phone footer 
+.phone-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-family: $font;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.massage-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font;
+    color: white;
+    padding-top: 20px;
+    
+}

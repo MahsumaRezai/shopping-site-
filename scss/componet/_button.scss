@@ -1,0 +1,28 @@
+// button section 
+.button {
+    &__btn {
+        background: white;
+        border:  1px solid white;
+        height: 40px;
+        width: 90px;
+        border-radius: 5px;
+        @media screen and (max-width:420px) {
+            width: 40px;
+            
+        }
+        @media screen and (max-width:395px) {
+            width: 30;
+            
+        }
+    } 
+    &__link {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        @media screen and (max-width:395px) {
+            font-size: 11px;
+            
+        }
+    }
+
+}

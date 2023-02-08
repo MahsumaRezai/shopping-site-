@@ -1,0 +1,172 @@
+// body section
+main {
+    width: 100%;
+    height: 2850px;
+    @media screen and (max-width:1024px) {
+        height: 2000px;
+        
+    }
+} 
+.body-title {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0% auto;
+    width: 21%;
+    padding-top: 10px;
+    @media screen and (max-width:920px) {
+        width: 30px;
+        
+    }
+    &__text  {
+        text-align: center;
+        font-size: 30px;
+        font-family: $font;
+        color: #2b2a29;
+        font-weight: bold;
+      
+    }
+   
+}
+// cart section
+.cart-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    @media screen and (max-width:1024px) {
+        flex-direction: column
+        
+    }
+}
+.frist-cart {
+    background: white;
+    width: 400px;
+    height: 600px;
+    box-shadow:  10px 10px 10px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:1024px) {
+        width: 400px;
+        height: 550px;
+        
+    }
+    
+   
+
+
+}
+.para {
+    text-align: center;
+    font-family: $font;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: -100px
+}
+.para-pri {
+    text-align: center;
+    font-family: $font;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f26522;
+    padding-top: 5px;
+}
+.cart-text {
+    margin-top: -10px;
+}
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    padding-top: 100px;
+    font-family: $font;
+&__text-one {
+    color: #f26522;
+    font-weight: bold;
+}
+&__text-one:hover {
+    color: #2b2a29;
+    font-weight: bold;
+}
+&__text-two {
+    color: #2b2a29;
+    font-weight: bold;
+}
+&__text-two:hover {
+    color: #f26522;
+    font-weight: bold;
+}
+}
+// squrere
+.squre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 100px;
+}
+.first-squre {
+    width: 50px;
+    height: 50px;
+    background: #2b2a29;
+
+}
+.first-squre:hover{
+    background: #f26522
+
+}
+
+// Electronic-title
+.Electronic-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    &__text {
+        font-family: $font;
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+}
+// animation
+.animation {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.animat {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #414744;
+    border-right: 16px solid #f26522;
+    border-bottom: 16px solid #414744;
+    border-left: 16px solid #f26522;
+    width: 120px;
+    height: 120px;
+    
+    animation: spin 10s linear infinite;
+
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+   
+    100% {
+        transform: rotate(360deg)
+    }
+}
