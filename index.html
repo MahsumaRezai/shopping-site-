@@ -44,7 +44,7 @@
             <!--end select section-->
             <!--input section-->
             <div class="input">
-                <input type="text" class="input__inp" value="Search this blog ">
+                <input type="text" class="input__inp" value="Search this blog " id="input" onclick="input_haed()">
                 <input type="text" class="input__inp--black">
             </div>
             <!--end input section-->
@@ -52,7 +52,7 @@
             <div class="button">
                 <button class="button__btn">
                     <img src="./image/flag-uk.png" alt="">
-                    <a href="#" class="button__link">English</a>
+                    <a href="#" class="button__link" id = "link" onclick="country()">English</a>
                 </button>
             </div>
             <!--end button section-->
@@ -66,7 +66,9 @@
         <!-- end big title -->
         <!--last button in haed section-->
         <div class="button--black">
-            <button class="button--black__btn"><a href="#" class="button--black__link">BOY NOW</a></button>
+            <button class="button--black__btn" onclick="button()"><a href="#" class="button--black__link" onclick="myFunction(this, 'red')">BOY
+                    NOW</a></button>
+            <script src="./app.js"></script>
         </div>
         <!-- end last button in haed section-->
     </header>
@@ -292,7 +294,7 @@
                 <img src="./image/logo.png" alt="">
             </div>
             <div class="email">
-                <span class="email__text">Your Email</span>
+                <span class="email__text" onclick="email()">Your Email</span>
                 <span class="email__textone">SUBSCRIBE</span>
             </div>
             <div class="line">
@@ -319,7 +321,7 @@
             </div>
             <!--end of footer phone-->
             <div class="massage-footer">
-                <span class="massage-footer__mass">
+                <span class="massage-footer__mass" onclick="changfooter_color(this,'#f26522')">
                     Design by Masoumeh Rezai
                 </span>
             </div>
