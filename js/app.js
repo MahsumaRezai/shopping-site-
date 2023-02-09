@@ -18,18 +18,26 @@ function input_haed() {
     document.getElementById("input").value = "Can you search this here"
 }
 function country() {
-    document.getElementById("link").innerHTML = "USA"
+    document.getElementById("link").innerHTML = "USA";
+    const links = document.getElementById("link");
+    console.log(links)
 }
 
 // footer function 
 function changfooter_color(element, color) {
-    element.style.color = color
-
+    element.style.color = color;
 }
 // footer email massage 
+
 function email() {
-    alert("Write your Emali Address")
+    alert("write your Email Address")
 }
+
+// head section 
+ function head_title(element,color) {
+     element.style.color = color;
+ }
+
 
 
 
