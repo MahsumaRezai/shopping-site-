@@ -1,5 +1,6 @@
-# shopping-site-<br>
+# shopping-site<br>
  ## Build with HTML, CSS, Scss, and JavaScript <br>
+ Demo - https://singular-souffle-41f723.netlify.app/<br>
 ![image](https://user-images.githubusercontent.com/110189253/217843250-a2d0c12e-6f7a-4be0-a0f3-8a706e11321f.png)<br>
 ![image](https://user-images.githubusercontent.com/110189253/217843730-e0c4de9f-34e5-4f67-9156-ffdf37e15990.png)<br>
 ![image](https://user-images.githubusercontent.com/110189253/217844336-6185c7d7-a5e2-4b84-a079-2cb4ad8c9c2c.png)<br>
